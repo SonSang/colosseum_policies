@@ -13,5 +13,5 @@ python rlcard_learn_dqn.py --num_episodes=5000 --log_dir=model/
 3. Run script and watch rlcard DQN play no-limit texas holdem in PettingZoo environment!
 * rlcard_policies_dqn.py : This script requires name of the network file to run.
 ```
-python rlcard_policies_dqn.py --network_weights='model/texas-holdem-no-limit-dqn'
+python rlcard_policies_dqn.py --network_weights=model/texas-holdem-no-limit-dqn
 ```
